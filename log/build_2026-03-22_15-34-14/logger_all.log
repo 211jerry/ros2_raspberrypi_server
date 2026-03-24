@@ -1,0 +1,631 @@
+[0.513s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.513s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa3740970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa38d1de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa38d1de0>>)
+[1.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.401s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extension 'ignore_ament_install'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extensions ['colcon_pkg']
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extension 'colcon_pkg'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extensions ['colcon_meta']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extension 'colcon_meta'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extensions ['ros']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/autosweeper_robot) by extension 'ros'
+[1.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autosweeper_robot' with type 'ros.ament_python' and name 'autosweeper_robot'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extension 'ignore_ament_install'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extensions ['colcon_pkg']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extension 'colcon_pkg'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extensions ['colcon_meta']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extension 'colcon_meta'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extensions ['ros']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_publisher) by extension 'ros'
+[1.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_publisher' with type 'ros.ament_python' and name 'camera_publisher'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'colcon_meta'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extensions ['ros']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_bringup) by extension 'ros'
+[1.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_bringup' with type 'ros.ament_cmake' and name 'fishbot_bringup'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[1.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[1.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extension 'ignore'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extension 'ignore_ament_install'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extensions ['colcon_pkg']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extension 'colcon_pkg'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extensions ['colcon_meta']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extension 'colcon_meta'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extensions ['ros']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/m1ct_d2) by extension 'ros'
+[1.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m1ct_d2' with type 'ros.ament_cmake' and name 'm1ct_d2'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'colcon_meta'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['ros']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ros'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'cmake'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'python'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'python_setup_py'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.515s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ignore'
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['ros']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ros'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'cmake'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'python'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'python'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ignore'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'colcon_pkg'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['colcon_meta']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'colcon_meta'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['ros']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ros'
+[1.530s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[1.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install
+[1.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[1.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.909s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'cmake_args' from command line to 'None'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'cmake_target' from command line to 'None'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.911s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.911s] Level 5:colcon.colcon_core.verb:set package 'autosweeper_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.911s] DEBUG:colcon.colcon_core.verb:Building package 'autosweeper_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot', 'symlink_install': False, 'test_result_base': None}
+[1.912s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'cmake_args' from command line to 'None'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'cmake_target' from command line to 'None'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.913s] Level 5:colcon.colcon_core.verb:set package 'camera_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.914s] DEBUG:colcon.colcon_core.verb:Building package 'camera_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher', 'symlink_install': False, 'test_result_base': None}
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.916s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.916s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.916s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.916s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.916s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.916s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.918s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.919s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.921s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.921s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.921s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.921s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.921s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.921s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'cmake_args' from command line to 'None'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'cmake_target' from command line to 'None'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'cmake_clean_first' from command line to 'False'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'cmake_force_configure' from command line to 'False'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'ament_cmake_args' from command line to 'None'
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'm1ct_d2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.924s] DEBUG:colcon.colcon_core.verb:Building package 'm1ct_d2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2', 'symlink_install': False, 'test_result_base': None}
+[1.925s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.925s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.925s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.925s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.926s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.926s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.926s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.926s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.926s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.926s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.929s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[1.929s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.934s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/micro_ros_msgs' with build type 'ament_cmake'
+[1.935s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/micro_ros_msgs'
+[1.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.974s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot' with build type 'ament_python'
+[1.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('autosweeper_robot', 'ament_prefix_path')
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/hook/ament_prefix_path.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/hook/ament_prefix_path.dsv'
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/hook/ament_prefix_path.sh'
+[1.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.011s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher' with build type 'ament_python'
+[2.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_publisher', 'ament_prefix_path')
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/hook/ament_prefix_path.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/hook/ament_prefix_path.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/hook/ament_prefix_path.sh'
+[2.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.049s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_bringup' with build type 'ament_cmake'
+[2.049s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_bringup'
+[2.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs -- -j4 -l4
+[4.337s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot'
+[4.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.767s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher'
+[6.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup -- -j4 -l4
+[6.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs -- -j4 -l4
+[6.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs
+[7.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup -- -j4 -l4
+[7.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup
+[7.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_bringup)
+[7.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup
+[7.920s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup' for CMake module files
+[7.924s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup' for CMake config files
+[7.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_bringup', 'cmake_prefix_path')
+[7.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.ps1'
+[7.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.dsv'
+[8.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.sh'
+[8.015s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib'
+[8.016s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/bin'
+[8.017s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib/pkgconfig/fishbot_bringup.pc'
+[8.018s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib/python3.10/site-packages'
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/bin'
+[8.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.ps1'
+[8.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.dsv'
+[8.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.sh'
+[8.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.bash'
+[8.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.zsh'
+[8.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/colcon-core/packages/fishbot_bringup)
+[8.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_bringup)
+[8.053s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup' for CMake module files
+[8.065s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup' for CMake config files
+[8.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_bringup', 'cmake_prefix_path')
+[8.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.ps1'
+[8.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.dsv'
+[8.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.sh'
+[8.092s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib'
+[8.093s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/bin'
+[8.094s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib/pkgconfig/fishbot_bringup.pc'
+[8.095s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib/python3.10/site-packages'
+[8.098s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/bin'
+[8.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.ps1'
+[8.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.dsv'
+[8.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.sh'
+[8.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.bash'
+[8.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.zsh'
+[8.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/colcon-core/packages/fishbot_bringup)
+[8.125s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_description' with build type 'ament_cmake'
+[8.126s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_description'
+[8.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.193s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs' for CMake module files
+[8.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_msgs
+[8.200s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs' for CMake config files
+[8.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.227s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib'
+[8.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.245s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/bin'
+[8.246s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.248s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[8.253s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/bin'
+[8.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[8.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.295s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs' for CMake module files
+[8.305s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs' for CMake config files
+[8.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.331s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib'
+[8.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.352s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/bin'
+[8.353s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.355s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[8.363s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/bin'
+[8.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[8.436s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[8.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_navigation2'
+[8.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description -- -j4 -l4
+[8.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2 -- -j4 -l4
+[8.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description -- -j4 -l4
+[8.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description
+[9.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[9.015s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description' for CMake module files
+[9.019s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description' for CMake config files
+[9.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[9.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[9.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_description
+[9.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[9.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[9.063s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/bin'
+[9.064s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[9.069s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/lib/python3.10/site-packages'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/bin'
+[9.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[9.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[9.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[9.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[9.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[9.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[9.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[9.143s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description' for CMake module files
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description' for CMake config files
+[9.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[9.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[9.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[9.192s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/bin'
+[9.192s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[9.193s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/lib/python3.10/site-packages'
+[9.196s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/bin'
+[9.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[9.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[9.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[9.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[9.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[9.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[9.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2' with build type 'ament_cmake'
+[9.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2'
+[9.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2 -- -j4 -l4
+[9.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2
+[9.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2 -- -j4 -l4
+[9.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[9.546s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2' for CMake module files
+[9.549s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2' for CMake config files
+[9.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[9.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[9.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2
+[9.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[9.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/bin'
+[9.601s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[9.604s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[9.607s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/bin'
+[9.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[9.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[9.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[9.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[9.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[9.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[9.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[9.688s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2' for CMake module files
+[9.691s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2' for CMake config files
+[9.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[9.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[9.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[9.706s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/bin'
+[9.707s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[9.708s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[9.710s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/bin'
+[9.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[9.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[9.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[9.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[9.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[9.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[9.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[9.747s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/micro-ROS-Agent/micro_ros_agent'
+[9.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log --single-version-externally-managed install_data
+[10.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent -- -j4 -l4
+[10.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2 -- -j4 -l4
+[10.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2
+[10.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m1ct_d2)
+[10.895s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2' for CMake module files
+[10.900s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2' for CMake config files
+[10.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('m1ct_d2', 'cmake_prefix_path')
+[10.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2
+[10.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/hook/cmake_prefix_path.ps1'
+[10.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/hook/cmake_prefix_path.dsv'
+[10.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/hook/cmake_prefix_path.sh'
+[10.929s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib'
+[10.931s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/bin'
+[10.932s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib/pkgconfig/m1ct_d2.pc'
+[10.933s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib/python3.10/site-packages'
+[10.936s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/bin'
+[10.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.ps1'
+[10.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.dsv'
+[10.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.sh'
+[10.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.bash'
+[10.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.zsh'
+[10.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/colcon-core/packages/m1ct_d2)
+[10.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m1ct_d2)
+[10.981s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2' for CMake module files
+[10.985s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2' for CMake config files
+[10.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('m1ct_d2', 'cmake_prefix_path')
+[10.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/hook/cmake_prefix_path.ps1'
+[10.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/hook/cmake_prefix_path.dsv'
+[10.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/hook/cmake_prefix_path.sh'
+[11.002s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib'
+[11.003s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/bin'
+[11.004s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib/pkgconfig/m1ct_d2.pc'
+[11.006s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib/python3.10/site-packages'
+[11.009s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/bin'
+[11.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.ps1'
+[11.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.dsv'
+[11.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.sh'
+[11.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.bash'
+[11.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.zsh'
+[11.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/colcon-core/packages/m1ct_d2)
+[11.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent -- -j4 -l4
+[11.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent
+[11.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[11.409s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent' for CMake module files
+[11.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_msgs/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/micro_ros_agent
+[11.416s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent' for CMake config files
+[11.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[11.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[11.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[11.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[11.436s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib'
+[11.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[11.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[11.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[11.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[11.450s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/bin'
+[11.451s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[11.453s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[11.455s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/bin'
+[11.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[11.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[11.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[11.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[11.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[11.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[11.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[11.491s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent' for CMake module files
+[11.495s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent' for CMake config files
+[11.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[11.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[11.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[11.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[11.527s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib'
+[11.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[11.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[11.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[11.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[11.553s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/bin'
+[11.554s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[11.556s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[11.570s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/bin'
+[11.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[11.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[11.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[11.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[11.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[11.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[11.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autosweeper_robot build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/install.log --single-version-externally-managed install_data
+[12.572s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher' for CMake module files
+[12.577s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher' for CMake config files
+[12.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher' returned '0': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log --single-version-externally-managed install_data
+[12.584s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib'
+[12.588s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/bin'
+[12.589s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/pkgconfig/camera_publisher.pc'
+[12.591s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages'
+[12.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_publisher', 'pythonpath')
+[12.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/hook/pythonpath.ps1'
+[12.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/hook/pythonpath.dsv'
+[12.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/hook/pythonpath.sh'
+[12.613s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/bin'
+[12.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_publisher)
+[12.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/package.ps1'
+[12.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/package.dsv'
+[12.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/package.sh'
+[12.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/package.bash'
+[12.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/camera_publisher/package.zsh'
+[12.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/share/colcon-core/packages/camera_publisher)
+[14.944s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot' for CMake module files
+[14.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot' returned '0': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autosweeper_robot build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/install.log --single-version-externally-managed install_data
+[14.953s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot' for CMake config files
+[14.972s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib'
+[14.975s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/bin'
+[14.979s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/pkgconfig/autosweeper_robot.pc'
+[14.982s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages'
+[14.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('autosweeper_robot', 'pythonpath')
+[14.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/hook/pythonpath.ps1'
+[15.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/hook/pythonpath.dsv'
+[15.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/hook/pythonpath.sh'
+[15.032s] Level 1:colcon.colcon_core.environment:checking '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/bin'
+[15.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autosweeper_robot)
+[15.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/package.ps1'
+[15.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/package.dsv'
+[15.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/package.sh'
+[15.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/package.bash'
+[15.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/package.zsh'
+[15.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/colcon-core/packages/autosweeper_robot)
+[15.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.111s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.153s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.156s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.173s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.174s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/local_setup.ps1'
+[15.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/_local_setup_util_ps1.py'
+[15.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/setup.ps1'
+[15.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/local_setup.sh'
+[15.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/_local_setup_util_sh.py'
+[15.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/setup.sh'
+[15.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/local_setup.bash'
+[15.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/setup.bash'
+[15.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/local_setup.zsh'
+[15.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/setup.zsh'

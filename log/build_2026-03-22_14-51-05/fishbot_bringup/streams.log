@@ -1,0 +1,25 @@
+[4.001s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup -- -j4 -l4
+[4.690s] [100%] Built target odom2tf
+[4.802s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup -- -j4 -l4
+[4.815s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup
+[4.870s] -- Install configuration: ""
+[4.873s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/lib/fishbot_bringup/odom2tf
+[4.877s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/launch
+[4.879s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/launch/bringup.launch.py
+[4.880s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/launch/urdf2tf.launch.py
+[4.882s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[4.884s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[4.886s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[4.889s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[4.902s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[4.930s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[4.930s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[4.931s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[4.932s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[4.933s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[4.987s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[4.999s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[5.001s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[5.002s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[5.002s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[5.078s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_bringup

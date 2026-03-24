@@ -1,0 +1,28 @@
+slam_toolbox:
+  ros__parameters:
+    # 基础配置（实机+虚拟机）
+    use_sim_time: False
+    map_frame_id: map
+    odom_frame_id: odom
+    base_frame_id: base_footprint
+    scan_topic: /scan
+
+    # 你的雷达硬件参数
+    min_laser_range: 0.11
+    max_laser_range: 10.0
+
+    # ==================== 解决虚拟机时间戳报错 ====================
+    tf_cache_time: 30.0              # 极限扩大TF缓存（30秒，解决时间错位）
+    transform_timeout: 3.0            # 极限延长TF等待时间
+    scan_queue_size: 200              # 超大消息队列
+    tf_timeout_sec: 3.0
+
+    # ==================== 彻底解决激光点数浮动报错 ====================
+    strict_scan_count_check: false    # 完全关闭点数校验
+    allow_empty_scan: true
+    ignore_unknown_scan_errors: true  # 忽略所有扫描格式错误
+
+    # ==================== 虚拟机+实机优化 ====================
+    enable_tf_scan_time_compensation: true
+    minimum_travel_distance: 0.05
+    minimum_travel_heading: 0.1

@@ -1,0 +1,22 @@
+[6.193s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autosweeper_robot build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/install.log --single-version-externally-managed install_data
+[7.546s] running egg_info
+[7.551s] writing ../../build/autosweeper_robot/autosweeper_robot.egg-info/PKG-INFO
+[7.552s] writing dependency_links to ../../build/autosweeper_robot/autosweeper_robot.egg-info/dependency_links.txt
+[7.553s] writing entry points to ../../build/autosweeper_robot/autosweeper_robot.egg-info/entry_points.txt
+[7.554s] writing requirements to ../../build/autosweeper_robot/autosweeper_robot.egg-info/requires.txt
+[7.556s] writing top-level names to ../../build/autosweeper_robot/autosweeper_robot.egg-info/top_level.txt
+[7.565s] reading manifest file '../../build/autosweeper_robot/autosweeper_robot.egg-info/SOURCES.txt'
+[7.574s] writing manifest file '../../build/autosweeper_robot/autosweeper_robot.egg-info/SOURCES.txt'
+[7.575s] running build
+[7.576s] running build_py
+[7.576s] running install
+[7.577s] running install_lib
+[7.582s] running install_data
+[7.582s] running install_egg_info
+[7.593s] removing '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[7.594s] Copying ../../build/autosweeper_robot/autosweeper_robot.egg-info to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot-0.0.0-py3.10.egg-info
+[7.602s] running install_scripts
+[7.701s] Installing range2scan.py script to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/autosweeper_robot
+[7.702s] Installing sweeper_node script to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/autosweeper_robot
+[7.704s] writing list of installed files to '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/install.log'
+[7.904s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/autosweeper_robot' returned '0': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autosweeper_robot build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/install.log --single-version-externally-managed install_data

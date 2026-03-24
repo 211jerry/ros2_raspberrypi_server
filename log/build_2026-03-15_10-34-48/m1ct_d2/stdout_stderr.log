@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target m1ct_d2[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/node_lidar.cpp.o[0m
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:510:17:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  510 |                 /*启动雷达*/
+      |                  
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kvoid flushSerial()[m[K’:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:118:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  118 |                 size_t [01;35m[Kbytes_read[m[K = node_lidar.serial_port->read_data(buffer, len);
+      |                        [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kbool lidar_state_judgment()[m[K’:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:151:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  151 |                 printf("状态异常重新启动 [01;35m[K%lld[m[K\n",[32m[Klidar_status_time[m[K);
+      |                                          [01;35m[K~~~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K    [32m[K|[m[K
+      |                                             [01;35m[K|[m[K    [32m[Kuint64_t {aka long unsigned int}[m[K
+      |                                             [01;35m[Klong long int[m[K
+      |                                          [32m[K%ld[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:127:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus_judge[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |         static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:130:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klidar_start_flag[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  130 |         static bool [01;35m[Klidar_start_flag[m[K = false; //下发雷达启动指令后的雷达反馈标志
+      |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint read_forever()[m[K’:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:264:82:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  264 |                                                         printf("full----- count=[01;35m[K%d[m[K,time=%lld\n",[32m[Kscan_count[m[K,current_times());
+      |                                                                                 [01;35m[K~^[m[K              [32m[K~~~~~~~~~~[m[K
+      |                                                                                  [01;35m[K|[m[K              [32m[K|[m[K
+      |                                                                                  [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                                 [32m[K%ld[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:264:92:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 3 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  264 |                                                         printf("full----- count=%d,time=[01;35m[K%lld[m[K\n",scan_count,[32m[Kcurrent_times()[m[K);
+      |                                                                                         [01;35m[K~~~^[m[K               [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                                                                            [01;35m[K|[m[K                            [32m[K|[m[K
+      |                                                                                            [01;35m[Klong long int[m[K                [32m[Kint64_t {aka long int}[m[K
+      |                                                                                         [32m[K%ld[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint send_lidar_data(LaserScan&)[m[K’:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:426:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  426 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint topic_thread()[m[K’:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:534:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  534 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint node_start(int, char**)[m[K’:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:640:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  640 |                         for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+      |                                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K At global scope:
+[01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:127:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatus_judge[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |         static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+      |                     [01;35m[K^~~~~~~~~~~~[m[K

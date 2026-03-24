@@ -1,0 +1,25 @@
+[6.119s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log --single-version-externally-managed install_data
+[7.467s] running egg_info
+[7.470s] writing ../../build/camera_publisher/camera_publisher.egg-info/PKG-INFO
+[7.471s] writing dependency_links to ../../build/camera_publisher/camera_publisher.egg-info/dependency_links.txt
+[7.472s] writing entry points to ../../build/camera_publisher/camera_publisher.egg-info/entry_points.txt
+[7.473s] writing requirements to ../../build/camera_publisher/camera_publisher.egg-info/requires.txt
+[7.474s] writing top-level names to ../../build/camera_publisher/camera_publisher.egg-info/top_level.txt
+[7.483s] reading manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[7.489s] writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[7.489s] running build
+[7.490s] running build_py
+[7.491s] copying camera_publisher/camera_publisher.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build/lib/camera_publisher
+[7.492s] running install
+[7.494s] running install_lib
+[7.499s] copying /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build/lib/camera_publisher/camera_publisher.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher
+[7.503s] byte-compiling /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher/camera_publisher.py to camera_publisher.cpython-310.pyc
+[7.507s] Sorry: IndentationError: expected an indented block after 'if' statement on line 63 (camera_publisher.py, line 63)
+[7.508s] running install_data
+[7.509s] running install_egg_info
+[7.523s] removing '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[7.528s] Copying ../../build/camera_publisher/camera_publisher.egg-info to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info
+[7.537s] running install_scripts
+[7.642s] Installing camera_publisher script to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/camera_publisher
+[7.646s] writing list of installed files to '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log'
+[7.877s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher' returned '0': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log --single-version-externally-managed install_data

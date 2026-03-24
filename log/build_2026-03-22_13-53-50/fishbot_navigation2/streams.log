@@ -1,0 +1,27 @@
+[0.186s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2 -- -j4 -l4
+[0.693s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2 -- -j4 -l4
+[0.716s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2
+[0.801s] -- Install configuration: ""
+[0.806s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[0.807s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[0.808s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[0.808s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[0.809s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[0.809s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[0.810s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[0.811s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[0.817s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[0.818s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[0.819s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[0.819s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[0.829s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[0.831s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[0.835s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[0.837s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[0.837s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[0.838s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[0.849s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[0.851s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[0.852s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[0.852s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[0.853s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot:/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2

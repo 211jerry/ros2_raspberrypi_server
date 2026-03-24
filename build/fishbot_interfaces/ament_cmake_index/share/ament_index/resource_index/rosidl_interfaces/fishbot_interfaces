@@ -1,0 +1,4 @@
+srv/FishBotConfig.idl
+srv/FishBotConfig.srv
+srv/FishBotConfig_Request.msg
+srv/FishBotConfig_Response.msg

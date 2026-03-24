@@ -1,0 +1,24 @@
+[8.248s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log --single-version-externally-managed install_data
+[10.892s] running egg_info
+[10.895s] writing ../../build/camera_publisher/camera_publisher.egg-info/PKG-INFO
+[10.897s] writing dependency_links to ../../build/camera_publisher/camera_publisher.egg-info/dependency_links.txt
+[10.898s] writing entry points to ../../build/camera_publisher/camera_publisher.egg-info/entry_points.txt
+[10.899s] writing requirements to ../../build/camera_publisher/camera_publisher.egg-info/requires.txt
+[10.900s] writing top-level names to ../../build/camera_publisher/camera_publisher.egg-info/top_level.txt
+[10.911s] reading manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[10.917s] writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[10.918s] running build
+[10.918s] running build_py
+[10.919s] copying camera_publisher/camera_publisher.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build/lib/camera_publisher
+[10.920s] running install
+[10.922s] running install_lib
+[10.928s] copying /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build/lib/camera_publisher/camera_publisher.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher
+[10.933s] byte-compiling /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher/camera_publisher.py to camera_publisher.cpython-310.pyc
+[10.937s] running install_data
+[10.938s] running install_egg_info
+[10.954s] removing '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[10.956s] Copying ../../build/camera_publisher/camera_publisher.egg-info to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info
+[10.966s] running install_scripts
+[11.087s] Installing camera_publisher script to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/camera_publisher
+[11.089s] writing list of installed files to '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log'
+[11.262s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/camera_publisher' returned '0': PYTHONPATH=/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/build install --record /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/camera_publisher/install.log --single-version-externally-managed install_data

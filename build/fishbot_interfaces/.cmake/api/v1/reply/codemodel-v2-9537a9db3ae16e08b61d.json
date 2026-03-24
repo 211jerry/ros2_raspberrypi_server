@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-008b4c58656003ea1456.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "fishbot_interfaces__py",
+					"jsonFile" : "directory-fishbot_interfaces__py-d1723ada3a01b183b273.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces/fishbot_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fishbot_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fishbot_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fishbot_interfaces_egg-433555d284e8c91d1db9.json",
+					"name" : "ament_cmake_python_build_fishbot_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fishbot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fishbot_interfaces-9f3c969c73cb10e35f95.json",
+					"name" : "ament_cmake_python_copy_fishbot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces-3dcc0f57f818419f60e0.json",
+					"name" : "fishbot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__cpp-c8edf804b1dd75bd2f56.json",
+					"name" : "fishbot_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fishbot_interfaces__py::@14737eba867c52c18ae3",
+					"jsonFile" : "target-fishbot_interfaces__py-bef31591641c991ce8e3.json",
+					"name" : "fishbot_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_generator_c-4d48053cab3f90e59a4f.json",
+					"name" : "fishbot_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_generator_py-a58e6cf972039fed703b.json",
+					"name" : "fishbot_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_c-51e20b92f78e08cbf101.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_c__pyext-bad8983f598c68dfba01.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_cpp-9838931fe56393aea68d.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_fastrtps_c-890633e311509b9d3cb0.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext-c4c45ee8d6a58968c0fd.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_fastrtps_cpp-703f939f2f6627565305.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_introspection_c-ef65c22b0c8085883682.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_introspection_c__pyext-a2566ef60364a3907908.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces__rosidl_typesupport_introspection_cpp-ccba610fe0129c40823b.json",
+					"name" : "fishbot_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fishbot_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fishbot_interfaces_uninstall-721e57b4e8d81e8eb518.json",
+					"name" : "fishbot_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e8604c6c3f9b50e823c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces",
+		"source" : "/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

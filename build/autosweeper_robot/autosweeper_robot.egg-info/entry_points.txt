@@ -1,0 +1,4 @@
+[console_scripts]
+range2scan.py = autosweeper_robot.range2scan:main
+sweeper_node = autosweeper_robot.sweeper_node:main
+

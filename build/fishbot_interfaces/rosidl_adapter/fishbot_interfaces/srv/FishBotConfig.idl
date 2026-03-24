@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fishbot_interfaces/srv/FishBotConfig.srv
+// generated code does not contain a copyright notice
+
+
+module fishbot_interfaces {
+  module srv {
+    struct FishBotConfig_Request {
+      string key;
+
+      string value;
+    };
+    struct FishBotConfig_Response {
+      string key;
+
+      string value;
+    };
+  };
+};

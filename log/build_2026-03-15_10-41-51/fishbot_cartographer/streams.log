@@ -1,0 +1,28 @@
+[2.788s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer -- -j4 -l4
+[3.138s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer -- -j4 -l4
+[3.230s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer
+[3.338s] -- Install configuration: ""
+[3.341s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/config
+[3.345s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_laser_2d.lua
+[3.345s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/config/cartographer.rviz
+[3.346s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_2d.lua
+[3.347s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/launch
+[3.347s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/launch/cartographer.launch.py
+[3.355s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/rviz
+[3.356s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/rviz/fishbot_cartographer.rviz
+[3.357s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/ament_index/resource_index/package_run_dependencies/fishbot_cartographer
+[3.357s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/ament_index/resource_index/parent_prefix_path/fishbot_cartographer
+[3.358s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.sh
+[3.359s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.dsv
+[3.359s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.sh
+[3.376s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.dsv
+[3.378s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.bash
+[3.379s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.sh
+[3.380s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.zsh
+[3.387s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.dsv
+[3.388s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv
+[3.389s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/ament_index/resource_index/packages/fishbot_cartographer
+[3.413s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig.cmake
+[3.416s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig-version.cmake
+[3.421s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.xml
+[3.425s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer

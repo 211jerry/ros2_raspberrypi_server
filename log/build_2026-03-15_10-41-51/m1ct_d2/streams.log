@@ -1,0 +1,75 @@
+[0.178s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2 -- -j4 -l4
+[0.911s] [ 11%] [32mBuilding CXX object CMakeFiles/m1ct_d2.dir/src/node_lidar.cpp.o[0m
+[3.924s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:510:17:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[3.926s]   510 |                 /*启动雷达*/
+[3.927s]       |                  
+[24.762s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kvoid flushSerial()[m[K’:
+[24.768s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:118:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[24.769s]   118 |                 size_t [01;35m[Kbytes_read[m[K = node_lidar.serial_port->read_data(buffer, len);
+[24.770s]       |                        [01;35m[K^~~~~~~~~~[m[K
+[24.774s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kbool lidar_state_judgment()[m[K’:
+[24.775s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:151:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[24.777s]   151 |                 printf("状态异常重新启动 [01;35m[K%lld[m[K\n",[32m[Klidar_status_time[m[K);
+[24.778s]       |                                          [01;35m[K~~~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+[24.779s]       |                                             [01;35m[K|[m[K    [32m[K|[m[K
+[24.780s]       |                                             [01;35m[K|[m[K    [32m[Kuint64_t {aka long unsigned int}[m[K
+[24.785s]       |                                             [01;35m[Klong long int[m[K
+[24.786s]       |                                          [32m[K%ld[m[K
+[24.787s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:127:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus_judge[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[24.788s]   127 |         static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+[24.811s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[24.812s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:130:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klidar_start_flag[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[24.813s]   130 |         static bool [01;35m[Klidar_start_flag[m[K = false; //下发雷达启动指令后的雷达反馈标志
+[24.814s]       |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[24.815s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint read_forever()[m[K’:
+[24.816s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:264:82:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[24.826s]   264 |                                                         printf("full----- count=[01;35m[K%d[m[K,time=%lld\n",[32m[Kscan_count[m[K,current_times());
+[24.827s]       |                                                                                 [01;35m[K~^[m[K              [32m[K~~~~~~~~~~[m[K
+[24.828s]       |                                                                                  [01;35m[K|[m[K              [32m[K|[m[K
+[24.828s]       |                                                                                  [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+[24.829s]       |                                                                                 [32m[K%ld[m[K
+[24.830s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:264:92:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 3 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[24.831s]   264 |                                                         printf("full----- count=%d,time=[01;35m[K%lld[m[K\n",scan_count,[32m[Kcurrent_times()[m[K);
+[24.832s]       |                                                                                         [01;35m[K~~~^[m[K               [32m[K~~~~~~~~~~~~~~~[m[K
+[24.846s]       |                                                                                            [01;35m[K|[m[K                            [32m[K|[m[K
+[24.853s]       |                                                                                            [01;35m[Klong long int[m[K                [32m[Kint64_t {aka long int}[m[K
+[24.865s]       |                                                                                         [32m[K%ld[m[K
+[24.865s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint send_lidar_data(LaserScan&)[m[K’:
+[24.866s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:426:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[24.867s]   426 | [01;35m[K}[m[K
+[24.867s]       | [01;35m[K^[m[K
+[24.868s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint topic_thread()[m[K’:
+[24.869s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:534:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[24.870s]   534 | [01;35m[K}[m[K
+[24.877s]       | [01;35m[K^[m[K
+[24.931s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K In function ‘[01m[Kint node_start(int, char**)[m[K’:
+[24.932s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:640:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[24.933s]   640 |                         for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+[24.934s]       |                                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[41.610s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:[m[K At global scope:
+[41.613s] [01m[K/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/m1ct_d2/src/node_lidar.cpp:127:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatus_judge[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[41.615s]   127 |         static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+[41.628s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[61.801s] [ 22%] [32m[1mLinking CXX executable m1ct_d2[0m
+[64.260s] [100%] Built target m1ct_d2
+[64.305s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2 -- -j4 -l4
+[64.323s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2
+[64.352s] -- Install configuration: ""
+[64.357s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2
+[64.394s] -- Set runtime path of "/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/lib/m1ct_d2/m1ct_d2" to ""
+[64.401s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/ament_index/resource_index/package_run_dependencies/m1ct_d2
+[64.403s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/ament_index/resource_index/parent_prefix_path/m1ct_d2
+[64.405s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.sh
+[64.406s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/environment/ament_prefix_path.dsv
+[64.408s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/environment/path.sh
+[64.408s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/environment/path.dsv
+[64.409s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/local_setup.bash
+[64.410s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/local_setup.sh
+[64.410s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/local_setup.zsh
+[64.411s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/local_setup.dsv
+[64.411s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.dsv
+[64.415s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/ament_index/resource_index/packages/m1ct_d2
+[64.417s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config.cmake
+[64.418s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/cmake/m1ct_d2Config-version.cmake
+[64.423s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/m1ct_d2/share/m1ct_d2/package.xml
+[64.431s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/m1ct_d2

@@ -1,0 +1,151 @@
+[0.160s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces -- -j4 -l4
+[1.195s] [  3%] Built target fishbot_interfaces__cpp
+[1.285s] [  3%] Built target ament_cmake_python_copy_fishbot_interfaces
+[1.346s] [ 12%] Built target fishbot_interfaces__rosidl_generator_c
+[1.547s] [ 22%] Built target fishbot_interfaces__rosidl_typesupport_cpp
+[1.572s] [ 32%] Built target fishbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.729s] [ 41%] Built target fishbot_interfaces__rosidl_typesupport_introspection_cpp
+[1.834s] [ 51%] Built target fishbot_interfaces__rosidl_typesupport_fastrtps_c
+[1.941s] [ 61%] Built target fishbot_interfaces__rosidl_typesupport_introspection_c
+[2.136s] [ 70%] Built target fishbot_interfaces__rosidl_typesupport_c
+[2.428s] [ 70%] Built target fishbot_interfaces
+[2.603s] [ 74%] Built target fishbot_interfaces__py
+[2.839s] [ 80%] Built target fishbot_interfaces__rosidl_generator_py
+[3.174s] [ 90%] Built target fishbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.175s] [ 93%] Built target fishbot_interfaces__rosidl_typesupport_c__pyext
+[3.211s] [100%] Built target fishbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.594s] running egg_info
+[3.598s] writing fishbot_interfaces.egg-info/PKG-INFO
+[3.599s] writing dependency_links to fishbot_interfaces.egg-info/dependency_links.txt
+[3.600s] writing top-level names to fishbot_interfaces.egg-info/top_level.txt
+[3.618s] reading manifest file 'fishbot_interfaces.egg-info/SOURCES.txt'
+[3.643s] writing manifest file 'fishbot_interfaces.egg-info/SOURCES.txt'
+[3.812s] [100%] Built target ament_cmake_python_build_fishbot_interfaces_egg
+[3.869s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces -- -j4 -l4
+[3.937s] Invoking command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces
+[4.005s] -- Install configuration: ""
+[4.052s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/fishbot_interfaces
+[4.072s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[4.087s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[4.102s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.103s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[4.110s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/fish_bot_config.h
+[4.111s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[4.127s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__type_support.h
+[4.129s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__struct.h
+[4.130s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__functions.c
+[4.137s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__functions.h
+[4.148s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/library_path.sh
+[4.149s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/library_path.dsv
+[4.184s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_generator_c.so
+[4.185s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[4.185s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[4.187s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.187s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[4.188s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[4.189s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__rosidl_typesupport_fastrtps_c.h
+[4.205s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.207s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[4.207s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[4.208s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.209s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[4.209s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[4.210s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__type_support.c
+[4.211s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__rosidl_typesupport_introspection_c.h
+[4.223s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_introspection_c.so
+[4.235s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_c.so
+[4.237s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[4.238s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[4.239s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.240s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[4.241s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/fish_bot_config.hpp
+[4.242s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[4.244s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__builder.hpp
+[4.245s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__struct.hpp
+[4.251s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__type_support.hpp
+[4.251s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__traits.hpp
+[4.256s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[4.257s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg
+[4.258s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.258s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[4.259s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[4.259s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/dds_fastrtps
+[4.260s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__rosidl_typesupport_fastrtps_cpp.hpp
+[4.280s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.282s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces
+[4.283s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv
+[4.283s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail
+[4.288s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__rosidl_typesupport_introspection_cpp.hpp
+[4.289s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/include/fishbot_interfaces/fishbot_interfaces/srv/detail/fish_bot_config__type_support.cpp
+[4.327s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.339s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_typesupport_cpp.so
+[4.341s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/pythonpath.sh
+[4.343s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/pythonpath.dsv
+[4.343s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info
+[4.352s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.355s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.356s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.360s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.361s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces
+[4.362s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.363s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/__init__.py
+[4.364s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.371s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.371s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/libfishbot_interfaces__rosidl_generator_py.so
+[4.372s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_c.c
+[4.372s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/_fishbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.373s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.373s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv
+[4.374s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/__init__.py
+[4.374s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/_fish_bot_config.py
+[4.375s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv/_fish_bot_config_s.c
+[4.604s] Listing '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces'...
+[4.606s] Listing '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/srv'...
+[4.653s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.665s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.694s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/local/lib/python3.10/dist-packages/fishbot_interfaces/fishbot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.881s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/lib/libfishbot_interfaces__rosidl_generator_py.so
+[4.904s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/srv/FishBotConfig.idl
+[4.905s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/srv/FishBotConfig.srv
+[4.906s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/srv/FishBotConfig_Request.msg
+[4.910s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/srv/FishBotConfig_Response.msg
+[4.934s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/ament_index/resource_index/package_run_dependencies/fishbot_interfaces
+[4.944s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/ament_index/resource_index/parent_prefix_path/fishbot_interfaces
+[4.947s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/ament_prefix_path.sh
+[4.949s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/ament_prefix_path.dsv
+[4.950s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/path.sh
+[4.951s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/environment/path.dsv
+[4.952s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.bash
+[4.953s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.sh
+[4.955s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.zsh
+[4.957s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/local_setup.dsv
+[4.958s] -- Installing: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/package.dsv
+[4.984s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/ament_index/resource_index/packages/fishbot_interfaces
+[5.075s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_cExport.cmake
+[5.079s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.105s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.107s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.131s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.135s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.173s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cExport.cmake
+[5.175s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.195s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_cppExport.cmake
+[5.228s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.230s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.263s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.265s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.288s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cppExport.cmake
+[5.291s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.318s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_pyExport.cmake
+[5.321s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/export_fishbot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.324s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.326s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.329s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.331s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.334s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.338s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.341s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.346s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfacesConfig.cmake
+[5.349s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/cmake/fishbot_interfacesConfig-version.cmake
+[5.350s] -- Up-to-date: /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_interfaces/share/fishbot_interfaces/package.xml
+[5.372s] Invoked command in '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces

@@ -1,0 +1,16 @@
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot.urdf
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.dsv
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/fishbot_description/share/fishbot_description/package.xml

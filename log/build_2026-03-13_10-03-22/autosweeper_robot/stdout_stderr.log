@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/autosweeper_robot/autosweeper_robot.egg-info
+writing ../../build/autosweeper_robot/autosweeper_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/autosweeper_robot/autosweeper_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/autosweeper_robot/autosweeper_robot.egg-info/entry_points.txt
+writing requirements to ../../build/autosweeper_robot/autosweeper_robot.egg-info/requires.txt
+writing top-level names to ../../build/autosweeper_robot/autosweeper_robot.egg-info/top_level.txt
+writing manifest file '../../build/autosweeper_robot/autosweeper_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/autosweeper_robot/autosweeper_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/autosweeper_robot/autosweeper_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build/lib
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build/lib/autosweeper_robot
+copying autosweeper_robot/__init__.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build/lib/autosweeper_robot
+copying autosweeper_robot/sweeper_node.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build/lib/autosweeper_robot
+running install
+running install_lib
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot
+copying /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build/lib/autosweeper_robot/__init__.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot
+copying /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/build/lib/autosweeper_robot/sweeper_node.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot
+byte-compiling /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot/sweeper_node.py to sweeper_node.cpython-310.pyc
+running install_data
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/ament_index
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/ament_index/resource_index
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/ament_index/resource_index/packages
+copying resource/autosweeper_robot -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/launch
+copying launch/sweeper.launch.py -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/launch
+creating /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/config
+copying config/sweeper_config.yaml -> /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/share/autosweeper_robot/config
+running install_egg_info
+Copying ../../build/autosweeper_robot/autosweeper_robot.egg-info to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/python3.10/site-packages/autosweeper_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sweeper_node script to /home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/install/autosweeper_robot/lib/autosweeper_robot
+writing list of installed files to '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/autosweeper_robot/install.log'

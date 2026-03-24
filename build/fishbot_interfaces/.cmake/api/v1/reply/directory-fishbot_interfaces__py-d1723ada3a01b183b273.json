@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fishbot_interfaces__py",
+		"source" : "/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_interfaces/fishbot_interfaces__py"
+	}
+}
