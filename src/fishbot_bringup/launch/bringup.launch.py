@@ -63,7 +63,9 @@ def generate_launch_description():
     m1ct_d2 = launch_ros.actions.Node(
         package='m1ct_d2',
         executable='m1ct_d2',
-        output='screen'
+        output='screen',
+        prefix=['bash -c'],  # 用 bash 直接运行，绕过 ROS2 参数解析
+        emulate_tty=True
     )
 
     # 延迟启动
