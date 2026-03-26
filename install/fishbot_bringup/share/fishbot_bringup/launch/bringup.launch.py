@@ -17,12 +17,6 @@ def generate_launch_description():
         )
     )
 
-    navigation2 = launch.actions.IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(fishbot_navigation2_dir, 'launch', 'navigation2.launch.py')
-        )
-    )
-
     # ===================== 核心修复：直接启动rosbridge，永不报错 =====================
     # ROS2 Humble 唯一正确方式：直接运行rosbridge节点，指定端口9090
     rosbridge_websocket = launch_ros.actions.Node(
@@ -78,8 +72,7 @@ def generate_launch_description():
         odom2tf,
         microros_agent,
         range2scan,
-        rosbridge_websocket,
-        m1ct_d2_delay,
         camera_publisher_delay,
-        navigation2,
+        m1ct_d2_delay,
+        rosbridge_websocket,
     ])

@@ -29,7 +29,6 @@ source install/setup.bash
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/fishbot_bringup/config/slam_toolbox.yaml use_sim_time:=False
 
 #启动键盘控制
-source install/setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 #保存地图
