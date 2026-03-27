@@ -21,13 +21,13 @@ class SweeperNode(BasicNavigator):
         super().__init__(node_name)
         # ===================== 核心参数 =====================
         self.declare_parameter('map_yaml', '/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_navigation2/maps/room.yaml')
-        self.declare_parameter('robot_width', 0.3)          # 机器人宽度 (m)
+        self.declare_parameter('robot_width', 0.2)          # 机器人宽度 (m)
         self.declare_parameter('step_size', 0.5)             # 路径点间距 (m)
         self.declare_parameter('overlap', 0.1)               # 路径重叠率 (m)
         self.declare_parameter('initial_x', 0.0)
         self.declare_parameter('initial_y', 0.0)
         self.declare_parameter('initial_yaw', 0.0)
-        self.declare_parameter('inflation_radius', 0.3)      # 地图膨胀半径 (m)
+        self.declare_parameter('inflation_radius', 0.1)      # 地图膨胀半径 (m)
         self.declare_parameter('contour_approx_eps', 0.01)  # 轮廓近似精度 (m)
         self.declare_parameter('wall_offset', 0.1)           # 沿墙偏移距离 (m)
         self.declare_parameter('invert_map', False)           # 地图像素反转开关
