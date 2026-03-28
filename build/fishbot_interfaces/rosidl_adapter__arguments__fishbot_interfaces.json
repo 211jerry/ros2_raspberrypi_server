@@ -1,6 +1,0 @@
-{
-  "package_name": "fishbot_interfaces",
-  "non_idl_tuples": [
-    "/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/src/fishbot_interfaces:srv/FishBotConfig.srv"
-  ]
-}

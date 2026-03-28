@@ -26,6 +26,9 @@ setup(
         'console_scripts': [
             'sweeper_node = autosweeper_robot.sweeper_node:main',
             'range2scan.py = autosweeper_robot.range2scan:main',
+            'linesweeper = autosweeper_robot.linesweeper:main',
+            'archsweeper = autosweeper_robot.archsweeper:main',
+            'alongedge = autosweeper_robot.alongedge:main',
         ],
     },
 )

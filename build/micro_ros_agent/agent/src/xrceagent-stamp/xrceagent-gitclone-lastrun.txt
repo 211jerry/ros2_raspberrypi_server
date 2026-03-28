@@ -1,3 +1,0 @@
-repository='https://gitee.com/peapodss/Micro-XRCE-DDS-Agent'
-module=''
-tag='origin'

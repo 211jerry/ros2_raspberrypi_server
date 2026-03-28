@@ -1,9 +1,0 @@
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/uninstall.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/fishbot_navigation2_uninstall.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/test.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/edit_cache.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/rebuild_cache.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/list_install_components.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/install.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/install/local.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_navigation2/CMakeFiles/install/strip.dir

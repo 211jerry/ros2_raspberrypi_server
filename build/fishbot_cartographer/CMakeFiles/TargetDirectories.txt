@@ -1,9 +1,0 @@
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/uninstall.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/fishbot_cartographer_uninstall.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/test.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/edit_cache.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/rebuild_cache.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/list_install_components.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/install.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/install/local.dir
-/home/jerry/AutoSweeperSystem/AutoSweeperSystem_ws/build/fishbot_cartographer/CMakeFiles/install/strip.dir

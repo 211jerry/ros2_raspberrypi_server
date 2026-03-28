@@ -46,5 +46,17 @@ ros2 topic pub --once /clean std_msgs/msg/Bool "{data: false}"
 source install/setup.bash
 ros2 run autosweeper_robot sweeper_node
 
+# 开始快速清扫（条带清扫）
+source install/setup.bash
+ros2 run autosweeper_robot linesweeper
+
+# 开始沿边清扫
+source install/setup.bash
+ros2 run autosweeper_robot alongedge
+
+# 开始弓形清扫
+source install/setup.bash
+ros2 run autosweeper_robot archsweeper
+
 #启动安卓服务器
 ros2 launch rosbridge_server rosbridge_websocket_launch.xml port:=9090
