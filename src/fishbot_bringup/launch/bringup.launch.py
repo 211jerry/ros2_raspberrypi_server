@@ -19,14 +19,14 @@ def generate_launch_description():
 
     # ===================== 核心修复：直接启动rosbridge，永不报错 =====================
     # ROS2 Humble 唯一正确方式：直接运行rosbridge节点，指定端口9090
-    rosbridge_websocket = launch_ros.actions.Node(
-        package='rosbridge_server',
-        executable='rosbridge_websocket',
-        name='rosbridge_websocket',
-        output='screen',
-        # 传递端口参数
-        parameters=[{'port': 9090}]
-    )
+#    rosbridge_websocket = launch_ros.actions.Node(
+#        package='rosbridge_server',
+#        executable='rosbridge_websocket',
+#        name='rosbridge_websocket',
+#        output='screen',
+#        # 传递端口参数
+#        parameters=[{'port': 9090}]
+#    )
 
     # 以下所有节点保持原样，无任何修改
     odom2tf = launch_ros.actions.Node(
@@ -74,5 +74,5 @@ def generate_launch_description():
         range2scan,
         camera_publisher_delay,
         m1ct_d2_delay,
-        rosbridge_websocket,
+#        rosbridge_websocket,
     ])
