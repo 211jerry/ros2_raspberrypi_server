@@ -35,11 +35,11 @@ def generate_launch_description():
         output='screen'
     )
 
-    camera_publisher = launch_ros.actions.Node(
-        package='camera_publisher',
-        executable='camera_publisher',
-        output='screen'
-    )
+#    camera_publisher = launch_ros.actions.Node(
+#        package='camera_publisher',
+#        executable='camera_publisher',
+#        output='screen'
+#    )
 
     microros_agent = launch_ros.actions.Node(
         package='micro_ros_agent',
@@ -48,11 +48,11 @@ def generate_launch_description():
         output='screen'
     )
 
-    range2scan = launch_ros.actions.Node(
-        package='autosweeper_robot',
-        executable='range2scan.py',
-        output='screen'
-    )
+#    range2scan = launch_ros.actions.Node(
+#        package='autosweeper_robot',
+#        executable='range2scan.py',
+#        output='screen'
+#    )
 
     m1ct_d2 = launch_ros.actions.Node(
         package='m1ct_d2',
@@ -64,15 +64,15 @@ def generate_launch_description():
 
     # 延迟启动
     m1ct_d2_delay = launch.actions.TimerAction(period=5.0, actions=[m1ct_d2])
-    camera_publisher_delay = launch.actions.TimerAction(period=5.0, actions=[camera_publisher])
+#    camera_publisher_delay = launch.actions.TimerAction(period=5.0, actions=[camera_publisher])
 
     # 最终启动列表
     return launch.LaunchDescription([
         urdf2tf,
         odom2tf,
         microros_agent,
-        range2scan,
-        camera_publisher_delay,
+#        range2scan,
+#        camera_publisher_delay,
         m1ct_d2_delay,
 #        rosbridge_websocket,
     ])
