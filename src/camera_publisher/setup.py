@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'camera_publisher = camera_publisher.camera_publisher:main'
+            'camera_publisher = camera_publisher.camera_publisher:main',
+            'rviz2_camera_publisher = camera_publisher.rviz2_camera_publisher:main',
         ],
     },
 )
